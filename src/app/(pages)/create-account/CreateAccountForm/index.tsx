@@ -75,6 +75,7 @@ const CreateAccountForm: React.FC = () => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className={classes.form}>
+      
       <Message error={error} className={classes.message} />
       <Input
         name="email"
